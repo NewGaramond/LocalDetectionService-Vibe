@@ -1,0 +1,11 @@
+services:
+  detector:
+    build: .
+    image: localdetectionservice-vibe:cpu
+    ports:
+      - "8000:8000"
+    environment:
+      MODEL_WEIGHTS: yolo11n.pt
+      CONF_THRESHOLD: "0.20"
+      IMGSZ: "832"
+      ALLOWED_CLASSES: "person,car,bicycle,motorcycle,airplane,boat,truck,bus,train"
