@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.git
+.gitignore
+data/          # keep images out of the image; you can mount if needed
