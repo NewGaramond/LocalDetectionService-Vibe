@@ -46,7 +46,7 @@ data/
    ├─ Bikes/         # contains MOTORBIKES (see mapping below)
    ├─ Buses/
    ├─ Cars/
-   ├─ Helicopters/   # unsupported by the COCO model → skipped
+   ├─ Helicopters/   # unsupported by the COCO model → skipped 
    ├─ Ships/
    ├─ Trains/
    └─ Trucks/
